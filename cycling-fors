@@ -1,0 +1,43 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+  cout << "Skaiciai nuo 1 - 10:" << endl;
+  for (int i = 1; i <= 10; i++) {
+      cout << i << " ";
+  }
+  cout << endl;
+  cout << "1 uzduotis: 1 pakeisti i 2 tada 2 pakeisti i 3 ir t.t." << endl;
+  int s = 1;
+  for (int i = 1; i <= 10; i++) {
+      cout << i + s << " ";
+  }
+  cout << endl;
+  cout << "2 uzduotis: isspausdinti skaicius nuo 1 - 10:" << endl;
+  for (int i = 10; i >= 1; i--) {
+      cout << i << " ";
+  }
+  cout << endl;
+  cout << "3 uzduotis: Isspausdinti lyginius skaicius nuo 2 - 20:" << endl;
+  for (int i = 2; i <= 20; i = i + 2) {
+      cout << i << " ";
+  }
+  cout << endl;
+  
+  cout << "4 uzduotis: suskaiciuoti skaiciu suma nuo 1 - 50:" << endl;
+  int suma = 0;
+  for (int i = 1; i <= 50; i++) {
+      suma += i;
+      cout << i << " ";
+  }
+  cout << endl;
+  cout << "Skaiciu suma nuo 1 - 50: " << suma << endl;
+  cout << "5 uzduotis: surasyti 5 daugybos lentele" << endl;
+  for (int p = 5; p <= 50; p = p + 5) {
+       int s = 5;
+       cout << s << " * " << p / s << " = " << p << endl;
+  }
+  return 0;
+} paskutinis buvo nelengvas
