@@ -1,0 +1,37 @@
+// Example program
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+  cout << "Atspausdinti skaiciu kvadratus nuo 1-10:" << endl;
+  for (int i = 1; i <= 10; i++) {
+      int e = i * i;
+      cout << i << " * " << i << " = " << e << endl;
+  }
+  cout << endl;
+  cout << "Atspausdinti skaicius nuo 30 iki 10 mazinant juos po 3:" << endl;
+  for (int i = 30; i >= 10; i = i - 3) {
+      cout << i << " ";
+  }
+  int suma = 0;
+  cout << endl;
+  cout << endl;
+  
+  cout << "Isspausdinti nelyginiu skaiciu suma nuo 1 - 20:" << endl;
+  for (int i = 1; i <= 20; i = i + 2) {
+      suma += i;
+      cout << i << " ";
+  }
+  cout << endl;
+  cout << endl;
+  cout << "Suma: " << suma << endl;
+  cout << endl;
+  cout << "Isspausdinti zvaigzdes (*) 10 kartu: " << endl;
+  for (int i = 1; i <= 10; i++) {
+      cout << "*" << " ";
+  }
+  return 0;
+}
